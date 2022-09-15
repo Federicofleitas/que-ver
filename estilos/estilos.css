@@ -553,8 +553,6 @@ hr {
 
 
 /*animaciones*/
-<<<<<<< HEAD
-=======
 .galeria a img{
     transition: ease-in 0.6s;
     -webkit-transition: ease-in 0.6s;
@@ -574,7 +572,6 @@ hr {
 
     border: solid rgb(204, 172, 172) 2px;
 }
->>>>>>> animaciones
 
 
 /*mediaqueries*/
