@@ -553,6 +553,28 @@ hr {
 
 
 /*animaciones*/
+<<<<<<< HEAD
+=======
+.galeria a img{
+    transition: ease-in 0.6s;
+    -webkit-transition: ease-in 0.6s;
+    -moz-transition: ease-in 0.6s;
+    -ms-transition: ease-in 0.6s;
+    -o-transition: ease-in 0.6s;
+}
+
+
+.galeria a img:hover{
+    
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
+    border: solid rgb(204, 172, 172) 2px;
+}
+>>>>>>> animaciones
 
 
 /*mediaqueries*/
