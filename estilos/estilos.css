@@ -127,11 +127,7 @@ img {
 }
 
 
-.opin form p {
-    font-size: 20px;
-    padding: 10px;
 
-}
 
 
 
@@ -184,6 +180,10 @@ hr {
     list-style: none;
     display: flex;
 
+}
+
+.galeriawidth{
+   width: 500px;
 }
 
 .header nav ul li {
@@ -265,21 +265,12 @@ hr {
 .section3 {
     grid-area: section3;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly
 }
 
-.galeria {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 30px;
-    gap: 5px;
-}
 
-.galeria img {
-    width: 150px;
-}
 
 .section4 {
     grid-area: section4;
@@ -403,19 +394,22 @@ hr {
 }
 
 .boss {
+    margin: 10px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 30px;
 }
 
-.boss img {
-    width: 300px;
+.boss img{
+    width: 250px;
 }
+
+
+
 
 .employee {
     display: flex;
-    width: 100%;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -423,6 +417,14 @@ hr {
 
 .employee img {
     width: 250px;
+}
+
+.emp{
+    width: 200px;
+}
+
+.bg-beige{
+    background-color: rgb(204, 172, 172);
 }
 
 .section6 {
@@ -439,6 +441,20 @@ hr {
     text-align: center;
 }
 
+.text-bordo{
+    color: rgb(31, 0, 0);
+
+}
+
+
+.bot-buscar{
+    border: none;
+}
+
+.bot-buscar:hover{
+    color: rgb(204, 172, 172);
+    background-color: rgb(31, 0, 0);
+}
 
 /*BUSCADOR*/
 
@@ -458,7 +474,7 @@ hr {
     grid-area: section3;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -553,39 +569,29 @@ hr {
     -o-transition: 0.5s;
 }
 
-.review {
-    padding-top: 50px;
-    padding-bottom: 30px;
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    align-items: center;
-    gap: 20px;
-}
 
 
 /*animaciones*/
-.galeria a img{
-    transition: ease-in 0.6s;
-    -webkit-transition: ease-in 0.6s;
-    -moz-transition: ease-in 0.6s;
-    -ms-transition: ease-in 0.6s;
-    -o-transition: ease-in 0.6s;
+.blurgallery{
+    filter: blur(1rem);
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-filter: blur(1rem);
 }
 
-
-.galeria a img:hover{
-    
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-
-    border: solid rgb(204, 172, 172) 2px;
+.blurgallery:hover{
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
 }
+
 
 
 /*mediaqueries*/
@@ -617,7 +623,9 @@ hr {
         font-size: 15px;
     }
 
-
+    .galeriawidth{
+        width: 250px;
+    }
 
     .section1 {
         display: flex;
@@ -675,12 +683,6 @@ hr {
         width: 300px;
     }
 
-    .boss img {
-        width: 150px;
-    }
-    .employee img {
-        width: 100px;
-    }
 
     p{
         font-size: 12px;

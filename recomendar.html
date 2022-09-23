@@ -28,20 +28,24 @@
             </nav>
         </header>
     
-            <section class="principalTitle titulos center">
+            <section class="principalTitle titulos d-flex flex-column align-items-center">
                 <h1 class="animate__animated  animate__fadeIn animate__delay-0.5s">¿Qué viste?</h1>
                 <h2 class="animate__animated  animate__fadeIn animate__delay-1s"><em>Dejanos tu opinion  de una película</em></h2>
                 <img class="animate__animated  animate__fadeIn animate__delay-2s" src="./Imagenes/pregunta.png" alt="signo">
             </section>
     
-            <section class="section9 opin center">
-                <form action="#">
-                    <p>Escriba el nombre de la pélicula:</p>
-                    <input class="recblack" type="text" name="pelicula">
-                    <p>Escribe tu crítica:</p>
-                        <textarea class="recblack" name="critica" id="critica" cols="30" rows="10"></textarea>
-                </form>   
-                    <input  type="submit" name="" id="" value="Enviar" class="bot">
+            <section class="section9 d-flex flex-column">
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Escriba el nombre de la pélicula</label>
+                    <input type="email" class="form-control bg-beige" id="exampleFormControlInput1" placeholder="(Titanic, gladiador, etc)">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escribe tu crítica:</label>
+                    <textarea class="form-control bg-beige" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+
+                  <button class="btn  bg-beige text-bordo bot-buscar" type="submit">Enviar</button>
             </section>
     
             <footer class="footer">
