@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    color: $letraClara;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Contrail One', cursive;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(31, 0, 0) 30%, rgb(12, 11, 11));
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: 'Fugaz One', cursive;
+
+    }
+    h1 {
+        text-shadow: 0 0 0.2em rgb(100, 75, 73);
+        padding: 20px;
+        margin: 20px;
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+
+    a{
+        color: $letraClara;
+        text-decoration: none;
+        &:hover{
+            color: $letraClara;
+        
+        }
+    
+    }
+    hr {
+        width: 90%;
+        align-self: center;
+        border: 0;
+        height: 0;
+        box-shadow: 0 1px 5px 1px rgba(204, 172, 172, 0.322);
+    }
+    
+}
+
+.bot-buscar{
+    border: none;
+    &:hover{
+        color: $letraClara;
+        background-color: rgb(31, 0, 0);
+    }
+}
+
+.blurgallery{
+    filter: blur(1rem);
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-filter: blur(1rem);
+}
+
+.blurgallery:hover{
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+
+.center {
+    text-align: center;
+}
+
+input {
+    accent-color: rgb(53, 15, 15);
+}
+
+img {
+    opacity: 80%;
+}
+

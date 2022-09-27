@@ -1,0 +1,88 @@
+@import './variables';
+@import './general';
+@import './headerFooter';
+@import './buscador';
+@import './index';
+@import './bios';
+@import './recomendar';
+@import './movies';
+
+
+
+@media only screen and (max-width:480px) {
+    .container1 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas:
+            "header"
+            "principalTitle"
+            "section3"
+            "section4"
+            "section1"
+            "footer";
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    .galeriawidth{
+        width: 250px;
+    }
+
+    .section1 {
+        display: flex;
+    }
+
+
+    .section3,
+    .section4 {
+        width: 70;
+    }
+
+    .galeria img {
+        max-width: 100px;
+    }
+
+
+    .trailer iframe {
+        width: 250px;
+        height: 150px;
+    }
+
+    .leftmenu {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .leftcoming {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .principalTitle h1{
+        font-size: 50px;
+    }
+
+    .header nav ul {
+        flex-wrap: wrap;
+    }
+    /*acomodar bios*/
+    .titlegrupo{
+        margin: auto;
+    }
+
+}
+
+

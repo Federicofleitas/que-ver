@@ -1,0 +1,19 @@
+.container4 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+        "header"
+        "principalTitle"
+        "section3"
+        "footer";
+}
+
+.recblack {
+    background-color: black;
+}
+
+.section9 {
+    grid-area: section3;
+    padding: 30px;
+}
