@@ -1,0 +1,5 @@
+Agregue meta keywords y descrition a cada pagina
+agregue title diferente a cada pagina
+agregue alt text a todas las imagenes
+corrobore que las imagenes no sean demasiado grandes
+agregue mixin para los iconos del footer
