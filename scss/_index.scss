@@ -95,6 +95,26 @@
 
 }
 
+.blurgallery{
+    filter: blur(1rem);
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-filter: blur(1rem);
+}
+
+.blurgallery:hover{
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+
 .empty {
     grid-area: empty;
 }
@@ -103,4 +123,10 @@
     background-color: rgb(204, 172, 172);
     color: $letraOscura;
     
+}
+
+.carousel-indicators{
+    .buttonlight{
+        background-color: $letraClara;
+    }
 }

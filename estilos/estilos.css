@@ -41,24 +41,6 @@ body {
     color: #ccacac;
     background-color: #1f0000; }
 
-.blurgallery {
-  filter: blur(1rem);
-  transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -webkit-filter: blur(1rem); }
-
-.blurgallery:hover {
-  filter: blur(0);
-  -webkit-filter: blur(0);
-  transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out; }
-
 .center {
   text-align: center; }
 
@@ -67,6 +49,9 @@ input {
 
 img {
   opacity: 80%; }
+
+.light-info {
+  color: #ccacac; }
 
 .logo {
   width: 70px;
@@ -251,12 +236,33 @@ img {
       opacity: 100%;
       transition: 0.5s; }
 
+.blurgallery {
+  filter: blur(1rem);
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-filter: blur(1rem); }
+
+.blurgallery:hover {
+  filter: blur(0);
+  -webkit-filter: blur(0);
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out; }
+
 .empty {
   grid-area: empty; }
 
 .bg-button-me {
   background-color: #ccacac;
   color: #1f0000; }
+
+.carousel-indicators .buttonlight {
+  background-color: #ccacac; }
 
 .container2 {
   display: grid;
